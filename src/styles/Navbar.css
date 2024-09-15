@@ -1,0 +1,102 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: var(--other-color);
+    position: relative;
+    z-index: 10;
+    font-family: 'Phantom Sans';
+  }
+  
+  .navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .navbar-logo h1 {
+    font-family: 'Phantom Sans';
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar-logo h1 span {
+    color: var(--noel-color);
+  }
+  
+  .christmas-tree-icon {
+    font-size: 30px;
+    color: var(--tree-color);
+  }
+  
+  .navbar-menu {
+    display: flex;
+    gap: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .navbar-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar-menu ul li a {
+    color: var(--other-color);
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .navbar-menu ul li a:hover {
+    color: var(--noel-color);
+  }
+  
+ 
+  .navbar-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+    z-index: 20; 
+  }
+  
+  .bar {
+    width: 25px;
+    height: 3px;
+    background-color: var(--tree-color);
+    margin: 4px 0;
+    transition: 0.4s;
+  }
+  
+  @media (max-width: 768px) {
+    .navbar-menu {
+      position: fixed;
+      top: 0;
+      right: 0;
+      height: 100vh;
+      width: 250px;
+      background-color: #000;
+      padding-top: 60px;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      transform: translateX(100%);
+      transition: transform 0.3s ease-in-out;
+    }
+  
+    .navbar-menu.open {
+      transform: translateX(0);
+    }
+  
+    .navbar-menu ul {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .navbar-toggle {
+      display: flex;
+    }
+  }
+  
+  
