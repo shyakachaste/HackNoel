@@ -7,6 +7,7 @@
     position: relative;
     z-index: 10;
     font-family: 'Phantom Sans';
+    margin-top: 20px;
   }
   
   .navbar-logo {
@@ -47,6 +48,7 @@
     color: var(--other-color);
     text-decoration: none;
     transition: color 0.3s;
+    font-size: 20px;
   }
   
   .navbar-menu ul li a:hover {
@@ -76,7 +78,7 @@
       right: 0;
       height: 100vh;
       width: 250px;
-      background-color: #000;
+      background-color: #fff;
       padding-top: 60px;
       flex-direction: column;
       align-items: center;
