@@ -22,15 +22,15 @@ const HeroSection = () => {
       <div className="hero-info">
         <p className="hero-paragraph">
           <FaMapMarkerAlt className="location-icon" />
-          December 28, 2024, African Leadership University
+          December 30, 2024, African Leadership University
         </p>
         <p className="hero-paragraph">
           Be part of an unforgettable hackathon experience. Learn, innovate, and connect.
         </p>
       </div>
       <div className="hero-buttons">
-        <a href="https://www.yourcommunitypage.com" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Join Our Community</a>
-        <a href="https://www.yourapplicationpage.com" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
+        <a href="https://discord.com/invite/h5dfqzGZ22" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Join Our Community</a>
+        <a href="https://lu.ma/2dt6d5hc" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
       </div>
       <div className="audio-control" onClick={toggleAudio}>
         {isPlaying ? <FaVolumeMute className="audio-icon" /> : <FaVolumeUp className="audio-icon" />}

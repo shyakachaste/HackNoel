@@ -3,7 +3,10 @@ import './App.css';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutPage from './components/AboutPage';
-import PrizesPage from './components/PrizesPage';
+import Schedule from './components/Schedule';
+import Partners from './components/Partners';
+import Footer from './components/Footer';
+import FAQPage from './components/FAQPage';
 
 function App() {
   return (
@@ -11,7 +14,10 @@ function App() {
       <Navbar />
       <HeroSection />
       <AboutPage />
-      <PrizesPage />
+      <FAQPage />
+      <Schedule />
+      <Partners />
+      <Footer />
     </div>
   );
 }
