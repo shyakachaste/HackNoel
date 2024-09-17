@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
       </div>
       <p className="footer-text">
-        Youth CodeCamp is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499). Copyright © 2024.
+      Youth Code Camp is fiscally sponsored by The Hack Foundation (d.b.a. Hack Club), a 501(c)(3) nonprofit (EIN: 81-2908499). Copyright © 2024.
       </p>
     </footer>
   );

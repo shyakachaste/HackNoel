@@ -10,7 +10,7 @@
   .schedule-title {
     font-size: 2.5rem;
     margin-bottom: 30px;
-    color: var(--tree-color);
+    color: #222D39;
     text-align: center;
   }
   
@@ -58,7 +58,6 @@
     color: var(--other-color);
   }
   
-  /* Responsive Design */
   @media (min-width: 768px) {
     .schedule-container {
       grid-template-columns: 1fr 1fr;
