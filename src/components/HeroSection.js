@@ -22,7 +22,7 @@ const HeroSection = () => {
       <div className="hero-info">
         <p className="hero-paragraph">
           <FaMapMarkerAlt className="location-icon" />
-          December 30, 2024, African Leadership University
+          December 1st, 2024, African Leadership University
         </p>
         <p className="hero-paragraph">
           Be part of an unforgettable hackathon experience. Learn, innovate, and connect.
