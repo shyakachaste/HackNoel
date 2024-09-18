@@ -8,7 +8,7 @@ const Partners = () => {
   ];
 
   return (
-    <section className="partners-section">
+    <section className="partners-section" id="partners">
       <h1 className="partners-title">Our Partners</h1>
       <div className="partners-container">
         {partners.map((partner) => (
