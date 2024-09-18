@@ -16,7 +16,7 @@ const Schedule = () => {
   ];
 
   return (
-    <section className="schedule-section" id="schedule">
+    <section className="schedule-section">
       <h1 className="schedule-title">Event Schedule</h1>
       <div className="schedule-container">
         {events.map((event, index) => (

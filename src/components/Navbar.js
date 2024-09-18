@@ -19,8 +19,9 @@ const Navbar = () => {
       <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
         <ul>
           <li><a href="#about">About</a></li>
-          <li><a href="#schedule">Scheduler</a></li>
+          <li><a href="#FAQ">FAQ</a></li>
           <li><a href="#partners">Partners</a></li>
+          <li><a href="https://hcb.hackclub.com/donations/start/youth-code-camp-hackathon">Donate</a></li>
         </ul>
       </div>
       <div className="navbar-toggle" onClick={handleToggle}>

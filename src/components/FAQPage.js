@@ -26,7 +26,7 @@ const FAQPage = () => {
   ];
 
   return (
-    <section className="faq-section">
+    <section className="faq-section" id="FAQ">
       <h1 className="faq-title">Frequently Asked Questions</h1>
       <div className="faq-container">
         {faqs.map((faq, index) => (
