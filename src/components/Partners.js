@@ -18,7 +18,7 @@ const Partners = () => {
             whileHover={{ scale: 1.1, rotate: 5 }}
             whileTap={{ scale: 0.9 }}
           >
-            <a href={partner.link} target="_blank" rel="noopener noreferrer">
+            <a href={partner.link} target="_blank" rel="noopener noreferrer" className="partner_a">
               <img src={partner.logo} alt={partner.alt} className="partner-logo" />
             </a>
           </motion.div>
