@@ -17,7 +17,7 @@ const FAQPage = () => {
     },
     {
       question: 'What should I bring to the hackathon?',
-      answer: 'Make sure to bring a positive attitude! We will provide the computers, chargers, food, and drinks.',
+      answer: 'Please bring your computers and chargers. We will provide food, drinks, and other essentials.',
     },
     {
       question: 'Is there a registration fee?',
