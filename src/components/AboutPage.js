@@ -29,7 +29,7 @@ const AboutPage = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-       HackNoel is an end-of-year hackathon with a Christmas theme, specifically for high school students. Happening on December 27, 2024, this event invites young innovators to use technology to solve real problems in Rwanda, developing web apps, mobile apps, or chatbots to tackle challenges in healthcare, education, and community services.
+       HackNoel is an end-of-year hackathon with a Christmas theme, specifically for high school students who are in advanced levels of secondary education and have some skills in programming. Students will create web apps, mobile apps, or chatbots to help address issues in healthcare, education, and community services.
       </motion.p>
       <motion.p 
         className="about-paragraph"
