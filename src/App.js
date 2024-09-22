@@ -7,6 +7,7 @@ import Schedule from './components/Schedule';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
 import FAQPage from './components/FAQPage';
+import TeamSection from './components/TeamSection';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <HeroSection />
       <AboutPage />
       <Schedule />
+      <TeamSection />
       <FAQPage />
       <Partners />
       <Footer />
