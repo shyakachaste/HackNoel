@@ -8,6 +8,10 @@ const FAQPage = () => {
       answer: 'We have some amazing prizes lined up! The exact details will be announced shortly before the hackathon begins.',
     },
     {
+      question: 'What is the theme of Hack Noel?',
+      answer: 'The theme of HackNoel is "Coding for a Brighter Future." Students will use their coding skills to solve real-world problems in healthcare, education, and community services. The goal is to create web apps, mobile apps, or chatbots that can make life better for people in Rwanda.',
+    },
+    {
       question: 'Who can join HackNoel?',
       answer: 'HackNoel is open to all high school students interested in technology, coding, and solving real-world problems.',
     },
