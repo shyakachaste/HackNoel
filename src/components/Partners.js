@@ -4,9 +4,10 @@ import { motion } from 'framer-motion';
 
 const Partners = () => {
   const partners = [
-    { id: 1, logo: '/assets/hackclub.png', alt: 'Partner 1' , link: 'https://hackclub.com' },
-    { id: 2, logo: '/assets/codecrafters.png', alt: 'Partner 2' , link: 'https://codecrafters.io/' },
-    { id: 3, logo: '/assets/axure.png', alt: 'Partner 2' , link: 'https://www.axure.com/' },
+    { id: 1, logo: '/assets/ldk.png', alt: 'Lycee de kigali' , link: 'https://lyceedekigali.ac.rw/' },
+    { id: 2, logo: '/assets/hackclub.png', alt: 'Hackclub' , link: 'https://hackclub.com' },
+    { id: 3, logo: '/assets/codecrafters.png', alt: 'Codecrafters' , link: 'https://codecrafters.io/' },
+    { id: 4, logo: '/assets/axure.png', alt: 'Axure' , link: 'https://www.axure.com/' },
   ];
 
   return (

@@ -12,10 +12,6 @@ const FAQPage = () => {
       answer: 'The theme of HackNoel is "Coding for a Brighter Future." Students will use their coding skills to solve real-world problems in healthcare, education, and community services. The goal is to create web apps, mobile apps, or chatbots that can make life better for people in Rwanda.',
     },
     {
-      question: 'Who can join HackNoel?',
-      answer: 'HackNoel is open to all high school students interested in technology, coding, and solving real-world problems.',
-    },
-    {
       question: 'Do I need to be an expert to participate?',
       answer: 'Not at all! HackNoel is for everyone, whether you’re a beginner or an experienced programmer. Just bring your enthusiasm!',
     },
@@ -26,6 +22,10 @@ const FAQPage = () => {
     {
       question: 'Is there a registration fee?',
       answer: 'No, HackNoel is completely free for all participants! Just register online to secure your spot.',
+    },
+    {
+      question: 'Is there a parent guide for HackNoel?',
+      answer: 'Yes, we have a parent guide to help parents understand the event and support their children during HackNoel.',
     },
   ];
 
