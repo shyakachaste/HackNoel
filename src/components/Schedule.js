@@ -10,7 +10,7 @@ const Schedule = () => {
     { time: '9:15 AM - 00:15 AM', description: 'Working on Projects' },
     { time: '00:15 PM - 1:15 PM', description: 'Lunch' },
     { time: '1:15 PM - 2:00 PM', description: 'Guest of Honor Speech' },
-    { time: '2:00 PM - 3:00 PM', description: 'Pizza & Code Networking' },
+    { time: '2:00 PM - 3:00 PM', description: 'Code Networking' },
     { time: '3:00 PM - 6:00 PM', description: 'Working on Projects Part 2' },
     { time: '6:00 PM - 7:00 PM', description: 'Closing and Rewarding' },
   ];

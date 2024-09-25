@@ -9,6 +9,14 @@ const teamMembers = [
         imgSrc: 'assets/chaste.jpg',
         linkedin: 'https://www.linkedin.com/in/shyaka-chaste-982a32272/',
   },
+
+  {
+    name: 'Caleb Tola',
+    title: 'Master of Ceremonies',
+    imgSrc: 'assets/caleb.jpg',
+    linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
+  },
+
   {
     name: 'Marius Kevin Ikuzwe',
     title: 'Project Manager',
