@@ -17,6 +17,7 @@ const teamMembers = [
     linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
   },
 
+
   {
     name: 'Marius Kevin Ikuzwe',
     title: 'Project Manager',
@@ -25,11 +26,11 @@ const teamMembers = [
   },
 
   {
-    name: 'Paulin Shema',
-    title: 'Technical Support & Marketing',
-    imgSrc: 'assets/shema.jpg',
-    linkedin: 'https://www.linkedin.com/in/paulin-shema/',
-  },
+    name: 'Ndayisaba Vladimir',
+    title: 'CO-organizer',
+    imgSrc: 'assets/alli.jpg',
+    linkedin: 'https://www.linkedin.com/',
+},
 ];
 
 const TeamSection = () => {
