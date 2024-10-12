@@ -24,13 +24,6 @@ const teamMembers = [
     imgSrc: 'assets/marius.jpg',
     linkedin: 'https://www.linkedin.com/in/marius-kevin-ikuzwe',
   },
-
-  {
-    name: 'Ndayisaba Vladimir',
-    title: 'CO-organizer',
-    imgSrc: 'assets/alli.jpg',
-    linkedin: 'https://www.linkedin.com/',
-},
 ];
 
 const TeamSection = () => {
