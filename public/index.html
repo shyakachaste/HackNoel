@@ -16,43 +16,54 @@
     <meta property="og:type" content="website" />
 
     <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Event",
-        "name": "HackNoel - Christmas Themed Hackathon",
-        "startDate": "2024-12-15",
-        "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
-        "eventStatus": "https://schema.org/EventScheduled",
-        "location": {
-          "@type": "Place",
-          "name": "Lycée de Kigali",
-          "address": {
-            "@type": "PostalAddress",
-            "streetAddress": "123 Kigali Road",
-            "addressLocality": "Kigali",
-            "addressRegion": "Kigali City",
-            "postalCode": "00000",
-            "addressCountry": "RW"
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Event",
+          "name": "HackNoel - Christmas Themed Hackathon",
+          "startDate": "2024-12-15T09:00",
+          "endDate": "2024-12-15T18:00",
+          "eventAttendanceMode": "https://schema.org/OfflineEventAttendanceMode",
+          "eventStatus": "https://schema.org/EventScheduled",
+          "location": {
+            "@type": "Place",
+            "name": "Lycée de Kigali",
+            "address": {
+              "@type": "PostalAddress",
+              "streetAddress": "123 Kigali Road",
+              "addressLocality": "Kigali",
+              "addressRegion": "Kigali City",
+              "postalCode": "00000",
+              "addressCountry": {
+                "@type": "Country",
+                "name": "RW"
+              }
+            }
+          },
+          "image": [
+            "https://www.hacknoel.live/Logo.png"
+          ],
+          "description": "HackNoel is an end-of-year hackathon where students build web apps, mobile apps, and chatbots to solve problems in healthcare, education, and community services.",
+          "offers": {
+            "@type": "Offer",
+            "url": "https://lu.ma/2dt6d5hc",
+            "price": "0",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock",
+            "validFrom": "2024-10-01T12:00"
+          },
+          "organizer": {
+            "@type": "Organization",
+            "name": "Youth Code Camp",
+            "url": "https://www.youthcodecamp.live"
+          },
+          "performer": {
+            "@type": "Organization",
+            "name": "Youth Code Camp"
           }
-        },
-        "image": [
-          "%PUBLIC_URL%/Logo.png"
-        ],
-        "description": "HackNoel is an end-of-year hackathon where students build web apps, mobile apps, and chatbots to solve problems in healthcare, education, and community services.",
-        "offers": {
-          "@type": "Offer",
-          "url": "https://lu.ma/2dt6d5hc",
-          "price": "0",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "validFrom": "2024-10-01T12:00"
-        },
-        "performer": {
-          "@type": "Organization",
-          "name": "Youth Code Camp"
         }
-      }
-      </script>
+        </script>
+        
       
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Hack Noel - Christmas Themed Hackathon</title>
