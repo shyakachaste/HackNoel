@@ -30,7 +30,7 @@ const HeroSection = () => {
       </div>
       <div className="hero-buttons">
         <a href="https://discord.com/invite/h5dfqzGZ22" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Join Our Community</a>
-        <a href="https://lu.ma/2dt6d5hc" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
+        <a href="https://www.hacknoel.live/register" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
       </div>
       <div className="audio-control" onClick={toggleAudio}>
         {isPlaying ? <FaVolumeMute className="audio-icon" /> : <FaVolumeUp className="audio-icon" />}
