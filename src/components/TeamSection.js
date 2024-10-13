@@ -11,18 +11,24 @@ const teamMembers = [
   },
 
   {
-    name: 'Caleb Tola',
-    title: 'Master of Ceremonies',
-    imgSrc: 'assets/caleb.jpg',
-    linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
-  },
-
-
-  {
     name: 'Marius Kevin Ikuzwe',
     title: 'Project Manager',
     imgSrc: 'assets/marius.jpg',
     linkedin: 'https://www.linkedin.com/in/marius-kevin-ikuzwe',
+  },
+
+  {
+    name: 'Paulin Shema',
+    title: 'Technical Support & Marketing',
+    imgSrc: 'assets/shema.jpg',
+    linkedin: 'https://www.linkedin.com/in/paulin-shema',
+  },
+
+  {
+    name: 'Caleb Tola',
+    title: 'Master of Ceremonies',
+    imgSrc: 'assets/caleb.jpg',
+    linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
   },
 ];
 
