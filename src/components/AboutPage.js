@@ -29,7 +29,7 @@ const AboutPage = () => {
         animate={{ opacity: 1 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-       HackNoel is an end-of-year hackathon hosted by Youth Code Camp. It brings together students from 10 top secondary schools in Rwanda. These students, who have skills in programming, will work on their predeveloped projects, creating web apps, mobile apps, or chatbots to solve problems in healthcare, education, and community services.
+       HackNoel is an end-of-year hackathon hosted by Youth Code Camp. It brings together students from 10 top secondary schools in Rwanda. These students will work on their projects, creating web apps, mobile apps, or chatbots to solve problems in healthcare, education, and community services.
       </motion.p>
       <motion.p 
         className="about-paragraph"
