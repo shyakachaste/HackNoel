@@ -26,7 +26,7 @@ const teamMembers = [
 
   {
     name: 'Caleb Tola',
-    title: 'Master of Ceremonies',
+    title: 'Marketing coordinator',
     imgSrc: 'assets/caleb.jpg',
     linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
   },
