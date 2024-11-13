@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Partners = () => {
   const partners = [
-    { id: 1, logo: '/assets/bktechouse.png', alt: 'BKTechouse' , link: 'https://www.bktechouse.rw/' },
+    { id: 1, logo: '/assets/bktechouse.png', alt: 'BK Techouse' , link: 'https://www.bktechouse.rw/' },
     { id: 2, logo: '/assets/ldk.png', alt: 'Lycee de kigali' , link: 'https://lyceedekigali.ac.rw/' },
     { id: 3, logo: '/assets/REB.png', alt: 'REB' , link: 'https://www.reb.gov.rw/' },
     { id: 4, logo: '/assets/techinika.png', alt: 'Techinika' , link: 'https://techinika.co.rw/' },
