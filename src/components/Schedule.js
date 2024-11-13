@@ -14,8 +14,8 @@ const Schedule = () => {
     { time: '1:45 PM - 2:45 PM', description: 'Working on Projects Part 3' },
     { time: '2:45 PM - 3:15 PM', description: 'Code Networking' },
     { time: '3:15 PM - 3:45 PM', description: 'Speech from Organizers' },
-    { time: '3:45 PM - 5:15 PM', description: 'Project Presentations' },
-    { time: '5:15 PM - 6:15 PM', description: 'Judging,Awarding and Closing' },
+    { time: '3:45 PM - 5:30 PM', description: 'Project Presentations' },
+    { time: '5:30 PM - 6:30 PM', description: 'Judging,Awarding and Closing' },
   ];
 
   return (
