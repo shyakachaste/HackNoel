@@ -13,7 +13,7 @@ const FAQPage = () => {
     },
     {
       question: 'Do I need to have a fully developed project to participate?',
-      answer: 'No, but we do recommend that teams have a project idea and make some progress before the event. HackNoel is open to all levels, whether you’re just starting or have more experience. Just come ready to build and improve!',
+      answer: 'If you already have a fully developed project, you can bring it to HackNoel. However, it’s important that the project is your own work. If it’s found that someone else developed it, you may be disqualified.',
     },
     {
       question: 'What should I bring to the hackathon?',

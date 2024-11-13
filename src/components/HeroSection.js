@@ -29,7 +29,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="hero-buttons">
-        <a href="https://github.com/Youth-codecamp/Hack-Noel-Guidelines/blob/main/GUIDELINES.md" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Read Guidelines</a>
+        <a href="https://github.com/Youth-codecamp/Hack-Noel-Guidelines" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Read Guidelines</a>
         <a href="https://www.hacknoel.live/register" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
       </div>
       <div className="audio-control" onClick={toggleAudio}>
