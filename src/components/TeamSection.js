@@ -18,15 +18,22 @@ const teamMembers = [
   },
 
   {
+    name: 'Ishimwe Kevine',
+    title: 'Marketing Graphic Designer',
+    imgSrc: 'assets/Kevine.png',
+    linkedin: 'https://www.linkedin.com/in/ishimwe-kevine-3107a8233/',
+  },
+
+  {
     name: 'Paulin Shema',
-    title: 'Technical Support & Marketing',
+    title: 'Technical Support',
     imgSrc: 'assets/shema.jpg',
     linkedin: 'https://www.linkedin.com/in/paulin-shema',
   },
 
   {
     name: 'Caleb Tola',
-    title: 'Marketing coordinator',
+    title: 'Master of Ceremonies',
     imgSrc: 'assets/caleb.jpg',
     linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
   },
