@@ -12,10 +12,6 @@ const FAQPage = () => {
       answer: 'The theme of HackNoel is "Coding for a Brighter Future." Students will use their coding skills to solve real-world problems in healthcare, education, and community services. The goal is to create web apps, mobile apps, chatbots or solutions involving IoT and AI that can make life better for people in Rwanda.',
     },
     {
-      question: 'Do I need to have a fully developed project to participate?',
-      answer: 'If you already have a fully developed project, you can bring it to HackNoel. However, it’s important that the project is your own work. If it’s found that someone else developed it, you may be disqualified.',
-    },
-    {
       question: 'What should I bring to the hackathon?',
       answer: 'Please bring your computers and chargers. We will provide food, drinks, and other essentials.',
     },

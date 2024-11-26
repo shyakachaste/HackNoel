@@ -30,13 +30,6 @@ const teamMembers = [
     imgSrc: 'assets/shema.jpg',
     linkedin: 'https://www.linkedin.com/in/paulin-shema',
   },
-
-  {
-    name: 'Caleb Tola',
-    title: 'Master of Ceremonies',
-    imgSrc: 'assets/caleb.jpg',
-    linkedin: 'https://www.linkedin.com/in/caleb-tola-b75b63328/',
-  },
 ];
 
 const TeamSection = () => {

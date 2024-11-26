@@ -5,12 +5,10 @@ import { motion } from 'framer-motion';
 const Partners = () => {
   const partners = [
     { id: 1, logo: '/assets/bktechouse.png', alt: 'BK Techouse' , link: 'https://www.bktechouse.rw/' },
-    { id: 2, logo: '/assets/ldk.png', alt: 'Lycee de kigali' , link: 'https://lyceedekigali.ac.rw/' },
-    { id: 3, logo: '/assets/REB.png', alt: 'REB' , link: 'https://www.reb.gov.rw/' },
-    { id: 4, logo: '/assets/techinika.png', alt: 'Techinika' , link: 'https://techinika.co.rw/' },
-    { id: 5, logo: '/assets/hackclub.png', alt: 'Hackclub' , link: 'https://hackclub.com' },
-    { id: 6, logo: '/assets/codecrafters.png', alt: 'Codecrafters' , link: 'https://codecrafters.io/' },
-    { id: 7, logo: '/assets/axure.png', alt: 'Axure' , link: 'https://www.axure.com/' },
+    { id: 2, logo: '/assets/techinika.png', alt: 'Techinika' , link: 'https://techinika.co.rw/' },
+    { id: 3, logo: '/assets/hackclub.png', alt: 'Hackclub' , link: 'https://hackclub.com' },
+    { id: 4, logo: '/assets/codecrafters.png', alt: 'Codecrafters' , link: 'https://codecrafters.io/' },
+    { id: 5, logo: '/assets/axure.png', alt: 'Axure' , link: 'https://www.axure.com/' },
   ];
 
   return (
