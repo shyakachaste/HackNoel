@@ -1,49 +1,83 @@
 .about-page {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: white;
-    color: #653818;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    font-family: 'Phantom Sans';
-  }
-  
-  .about-decor {
-    font-size: 4rem;
-    color: #e63946;
-    margin: 20px 0;
-  }
-  
+  padding: 40px 20px;
+  text-align: center;
+  background-color: white;
+  color: #653818;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.about-decor {
+  font-size: 4rem;
+  color: #e63946;
+  margin: 20px 0;
+}
+
+.about-title {
+  font-size: 2rem;
+  margin: 20px 0;
+  color: #222D39;
+}
+
+.about-paragraph {
+  font-size: 1rem;
+  max-width: 800px;
+  margin: 20px auto;
+  line-height: 1.6;
+  padding: 0 20px;
+  text-align: justify;
+}
+
+@media (max-width: 1024px) {
   .about-title {
-    font-size: 3rem;
-    margin: 20px 0;
-    color: #222D39;
+    font-size: 2.8rem;
   }
-  
+
   .about-paragraph {
-    font-size: 1.2rem;
-    max-width: 800px;
-    margin: 20px auto;
-    line-height: 1.5;
+    font-size: 1.1rem;
+    max-width: 90%;
+    padding: 0 15px;
   }
-  
-  @media (max-width: 768px) {
-    .about-title {
-      font-size: 2.5rem;
-    }
-  
-    .about-paragraph {
-      font-size: 1rem;
-      padding: 0 10px;
-    }
-  
-    .about-decor {
-      font-size: 3rem;
-    }
+
+  .about-decor {
+    font-size: 3.5rem;
   }
-  
+}
+
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 2.5rem;
+  }
+
+  .about-paragraph {
+    font-size: 1rem;
+    max-width: 95%;
+    padding: 0 10px;
+  }
+
+  .about-decor {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-title {
+    font-size: 2rem;
+  }
+
+  .about-paragraph {
+    font-size: 0.9rem;
+    max-width: 100%;
+    padding: 0 8px;
+  }
+
+  .about-decor {
+    font-size: 2.5rem;
+  }
+}

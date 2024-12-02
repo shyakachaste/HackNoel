@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Phantom Sans';
+    font-family: 'Poppins', sans-serif;
   }
   
   .faq-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: #222D39;
     margin-bottom: 30px;
     text-align: center;
@@ -34,7 +34,7 @@
   }
   
   .faq-question {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     color: var(--other-color);
     margin-bottom: 10px;
   }

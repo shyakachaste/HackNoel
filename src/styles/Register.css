@@ -9,7 +9,7 @@
     color: var(--other-color);
     padding: 20px;
     animation: fadeIn 1s ease-in-out;
-    font-family: 'Phantom Sans';
+    font-family: 'Poppins', sans-serif;
 }
 
 .register-container h1 {

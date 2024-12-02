@@ -4,18 +4,15 @@ import { FaClock } from 'react-icons/fa';
 
 const Schedule = () => {
   const events = [
-    { time: '8:00 AM - 8:30 AM', description: 'Doors Open' },
-    { time: '8:30 AM - 9:0 AM', description: 'Opening Remarks' },
-    { time: '9:00 AM - 9:30 AM', description: 'Breakfast' },
-    { time: '9:30 AM - 11:00 AM', description: 'Workshop' },
-    { time: '11:00 AM - 1:30 AM', description: 'Hacking Part 1' },
-    { time: '1:30 PM - 2:30 PM', description: 'Lunch Break' },
-    { time: '2:30 AM - 2:50 PM', description: 'Special Guest Speech' },
-    { time: '2:50 AM - 3:15 PM', description: 'Sponsor Showcase' },
-    { time: '3:15 PM - 3:55 PM', description: 'Hacking Part 2' },
-    { time: '3:55 PM - 4:15 PM', description: 'Code Networking' },
-    { time: '4:15 PM - 6:00 PM', description: 'Project Presentations & Judging' },
-    { time: '6:00 PM - 6:30 PM', description: 'Awarding Ceremony & Closing Remarks' },
+    { time: '8:45 AM - 9:15 AM', description: 'Doors Open' },
+    { time: '9:15 AM - 9:45 AM', description: 'Opening Remarks' },
+    { time: '9:45 AM - 11:00 AM', description: 'Workshop: Build a Website' },
+    { time: '11:00 AM - 1:00 PM', description: 'Coding Session 1: Start Working on Your Projects' },
+    { time: '1:00 PM - 2:00 PM', description: 'Lunch Break' },
+    { time: '2:00 PM - 2:30 PM', description: 'Special Guest Speech' },
+    { time: '2:30 PM - 4:30 PM', description: 'Coding Session 2: Continue Developing Projects' },
+    { time: '4:30 PM - 6:00 PM', description: 'Project Presentations & Q&A' },
+    { time: '6:00 PM - 6:30 PM', description: 'Judging, Awarding Ceremony & Closing Remarks' },
   ];
 
   return (

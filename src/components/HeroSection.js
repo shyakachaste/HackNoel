@@ -29,9 +29,10 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="hero-buttons">
-        <a href="https://github.com/Youth-codecamp/Hack-Noel-Guidelines" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Read Guidelines</a>
-        <a href="https://www.hacknoel.live/register" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Apply to Join</a>
+       <a href="https://www.hacknoel.live/register" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Join as Team</a>
+       <a href="https://ed0azuo2uuh.typeform.com/to/HwuyOO7x" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Join Solo</a>
       </div>
+
       <div className="audio-control" onClick={toggleAudio}>
         {isPlaying ? <FaVolumeMute className="audio-icon" /> : <FaVolumeUp className="audio-icon" />}
         <audio ref={audioRef} src="/assets/song.mp3" />

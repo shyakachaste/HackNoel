@@ -1,12 +1,12 @@
 .team-section {
   padding: 40px 20px;
   text-align: center;
-  font-family: 'Phantom Sans';
+  font-family: 'Poppins', sans-serif;
   background-color: #F7F9FC;
 }
 
 .section-title {
-  font-size: 2.5rem;
+  font-size: 2rem;
   margin-bottom: 40px;
   color: #222D39;
 }
@@ -40,7 +40,7 @@
 }
 
 .team-name {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #222D39;
 }
 
