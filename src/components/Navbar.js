@@ -22,7 +22,7 @@ const Navbar = () => {
           <li><a href="#team">Team</a></li>
           <li><a href="#FAQ">FAQ</a></li>
           <li><a href="#partners">Partners</a></li>
-          <li><a href="https://hcb.hackclub.com/donations/start/youth-code-camp-hackathon">Donate</a></li>
+          <li><a href="https://hcb.hackclub.com/donations/start/hack-noel">Donate</a></li>
         </ul>
       </div>
       <div className="navbar-toggle" onClick={handleToggle}>
