@@ -8,27 +8,28 @@ import Schedule from './components/Schedule';
 import Partners from './components/Partners';
 import Footer from './components/Footer';
 import FAQPage from './components/FAQPage';
-import TeamSection from './components/TeamSection';
-import Register from './components/Register';
+import ProjectPage from './components/ProjectPage';
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Navbar />
         <Routes>
-          <Route path="/" element={
-            <>
-              <Navbar />
-              <HeroSection />
-              <AboutPage />
-              <Schedule />
-              <TeamSection />
-              <FAQPage />
-              <Partners />
-              <Footer />
-            </>
-          } />
-          <Route path="/register" element={<Register />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <HeroSection />
+                <AboutPage />
+                <Schedule />
+                <FAQPage />
+                <Partners />
+                <Footer />
+              </>
+            }
+          />
+          <Route path="/projects" element={<ProjectPage />} />
         </Routes>
       </div>
     </Router>

@@ -1,7 +1,6 @@
 import React, { useState, useRef } from 'react';
 import { FaMapMarkerAlt, FaVolumeUp, FaVolumeMute } from 'react-icons/fa';
 import '../styles/HeroSection.css';
-
 const HeroSection = () => {
   const [isPlaying, setIsPlaying] = useState(false);
   const audioRef = useRef(null);
@@ -29,8 +28,7 @@ const HeroSection = () => {
         </p>
       </div>
       <div className="hero-buttons">
-       <a href="https://www.hacknoel.live/register" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Join as Team</a>
-       <a href="https://ed0azuo2uuh.typeform.com/to/HwuyOO7x" className="hero-btn apply-btn" target="_blank" rel="noopener noreferrer">Join Solo</a>
+      <a href="https://lu.ma/2dt6d5hc" className="hero-btn join-btn" target="_blank" rel="noopener noreferrer">Claim Your Spot</a>
       </div>
 
       <div className="audio-control" onClick={toggleAudio}>

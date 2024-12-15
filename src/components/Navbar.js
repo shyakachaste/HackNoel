@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { FaTree } from 'react-icons/fa'; 
 import '../styles/Navbar.css';
@@ -18,11 +19,13 @@ const Navbar = () => {
       </div>
       <div className={`navbar-menu ${isOpen ? 'open' : ''}`}>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#team">Team</a></li>
-          <li><a href="#FAQ">FAQ</a></li>
-          <li><a href="#partners">Partners</a></li>
-          <li><a href="https://hcb.hackclub.com/donations/start/hack-noel">Donate</a></li>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/projects">Projects</Link></li>
+          <li>
+            <a href="https://hcb.hackclub.com/donations/start/hack-noel" target="_blank" rel="noopener noreferrer">
+              Donate
+            </a>
+          </li>
         </ul>
       </div>
       <div className="navbar-toggle" onClick={handleToggle}>
