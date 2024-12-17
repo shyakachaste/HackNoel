@@ -8,9 +8,8 @@ const Partners = () => {
     { id: 2, logo: '/assets/techinika.png', alt: 'Techinika' , link: 'https://techinika.co.rw/' },
     { id: 3, logo: '/assets/GDG Kigali_Logo.png', alt: 'GDG Kigali' , link: 'https://gdg.community.dev/gdg-kigali/' },
     { id: 4, logo: '/assets/one world coders.png', alt: 'One World Coders' , link: 'https://www.oneworldcoders.com/' },
-    { id: 5, logo: '/assets/fablab.png', alt: 'Fablab Rwanda' , link: 'https://fablab.rw/' },
-    { id: 6, logo: '/assets/codecrafters.png', alt: 'Codecrafters' , link: 'https://codecrafters.io/' },
-    { id: 7, logo: '/assets/axure.png', alt: 'Axure' , link: 'https://www.axure.com/' },
+    { id: 5, logo: '/assets/codecrafters.png', alt: 'Codecrafters' , link: 'https://codecrafters.io/' },
+    { id: 6, logo: '/assets/axure.png', alt: 'Axure' , link: 'https://www.axure.com/' },
   ];
 
   return (

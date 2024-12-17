@@ -1,0 +1,32 @@
+.project-details {
+    padding: 20px;
+    text-align: center;
+    background-color: #fffaf1;
+  }
+  
+  .project-details h1 {
+    color: var(--noel-color);
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .project-details p {
+    font-size: 1rem;
+    color: var(--other-color);
+    margin-bottom: 20px;
+  }
+  
+  .details-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .details-images img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  

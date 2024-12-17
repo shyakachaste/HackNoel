@@ -1,0 +1,110 @@
+  .gallery-page {
+    text-align: center;
+    padding: 2rem 1rem;
+  }
+  
+  .gallery-page h1 {
+    font-size: 2rem;
+    color: var(--noel-color);
+    margin-bottom: 2rem;
+  }
+  
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+    justify-items: center;
+  }
+  
+  .gallery-item {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .gallery-item img,
+  .gallery-item video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .gallery-item:hover img,
+  .gallery-item:hover video {
+    transform: scale(1.03);
+  }
+  
+  .zoom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .zoom-content img,
+  .zoom-content video {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 8px;
+  }
+  
+  @media (min-width: 1200px) {
+    .gallery-grid {
+      gap: 1.5rem;
+    }
+    .gallery-item {
+      aspect-ratio: 16 / 9;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1rem;
+    }
+    .gallery-item {
+      aspect-ratio: 16 / 10;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .gallery-page h1 {
+      font-size: 1.8rem;
+    }
+    .gallery-grid {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.8rem;
+    }
+    .gallery-item {
+      aspect-ratio: 4 / 3;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .gallery-page h1 {
+      font-size: 1.5rem;
+    }
+    .gallery-grid {
+      grid-template-columns: 1fr;
+      gap: 0.5rem;
+    }
+    .gallery-item {
+      aspect-ratio: 1 / 1;
+    }
+  }
+
+  

@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="hero-info">
         <p className="hero-paragraph">
           <FaMapMarkerAlt className="location-icon" />
-          December 16th, 2024, Fablab Rwanda - Kacyiru, 44KG, 548St, Kigali
+          Coming Soon
         </p>
         <p className="hero-paragraph">
           Be part of an unforgettable hackathon experience. Learn, innovate, and connect.

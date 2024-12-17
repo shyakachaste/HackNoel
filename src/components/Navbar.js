@@ -21,6 +21,7 @@ const Navbar = () => {
         <ul>
           <li><Link to="/">Home</Link></li>
           <li><Link to="/projects">Projects</Link></li>
+          <li><Link to="/gallery">Gallery</Link></li>
           <li>
             <a href="https://hcb.hackclub.com/donations/start/hack-noel" target="_blank" rel="noopener noreferrer">
               Donate

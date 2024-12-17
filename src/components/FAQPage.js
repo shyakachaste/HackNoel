@@ -9,7 +9,7 @@ const FAQPage = () => {
     },
     {
       question: 'What is the theme of Hack Noel?',
-      answer: 'The theme of HackNoel is "Coding for a Brighter Future." Students will use their coding skills to solve real-world problems in healthcare, education, and community services. The goal is to create web apps, mobile apps, chatbots or solutions involving IoT and AI that can make life better for people in Rwanda.',
+      answer: 'HackNoel happens every year in December, and the theme changes each year. This year, the theme is "Coding for a Brighter Future," where students solve real-world problems using web apps, mobile apps, chatbots, IoT, or AI.',
     },
     {
       question: 'What should I bring to the hackathon?',
@@ -22,6 +22,18 @@ const FAQPage = () => {
     {
       question: 'Is there a parent guide for HackNoel?',
       answer: 'Yes, we have a parent guide to help parents understand the event and support their children during HackNoel.',
+    },
+    {
+      question: 'How can I join HackNoel next year?',
+      answer: 'HackNoel is organized every year in December. Stay updated by following our social media pages or checking our website for announcements.',
+    },
+    {
+      question: 'Do I need to come with a team?',
+      answer: 'No, you can register as an individual, and we will help you form a team during the hackathon.',
+    },
+    {
+      question: 'What kind of projects can we build?',
+      answer: 'You can build web apps, mobile apps, chatbots, or even solutions involving IoT and AI to solve problems in healthcare, education, and community services.',
     },
   ];
 

@@ -1,8 +1,10 @@
 import React from 'react';
-import '../styles/Schedule.css';
 import { FaClock } from 'react-icons/fa';
+import '../styles/Schedule.css';
 
 const Schedule = () => {
+  const isEventOver = true;
+
   const events = [
     { time: '8:45 AM - 9:15 AM', description: 'Doors Open' },
     { time: '9:15 AM - 9:45 AM', description: 'Opening Remarks' },
@@ -18,17 +20,24 @@ const Schedule = () => {
   return (
     <section className="schedule-section">
       <h1 className="schedule-title">Event Schedule</h1>
-      <div className="schedule-container">
-        {events.map((event, index) => (
-          <div className="schedule-item" key={index}>
-            <FaClock className="schedule-icon" />
-            <div className="schedule-details">
-              <p className="schedule-time">{event.time}</p>
-              <p className="schedule-description">{event.description}</p>
+      {isEventOver ? (
+        <div className="coming-soon">
+          <h2>HackNoel 2025 Schedule Coming Soon!</h2>
+          <p>Stay tuned for updates as we prepare for the next exciting hackathon.</p>
+        </div>
+      ) : (
+        <div className="schedule-container">
+          {events.map((event, index) => (
+            <div className="schedule-item" key={index}>
+              <FaClock className="schedule-icon" />
+              <div className="schedule-details">
+                <p className="schedule-time">{event.time}</p>
+                <p className="schedule-description">{event.description}</p>
+              </div>
             </div>
-          </div>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
     </section>
   );
 };
