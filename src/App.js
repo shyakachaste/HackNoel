@@ -9,7 +9,6 @@ import Partners from './components/Partners';
 import Footer from './components/Footer';
 import FAQPage from './components/FAQPage';
 import ProjectPage from './components/ProjectPage';
-import ProjectDetails from './components/ProjectDetails';
 import GalleryPage from './components/GalleryPage';
 
 function App() {
@@ -32,7 +31,6 @@ function App() {
             }
           />
           <Route path="/projects" element={<ProjectPage />} />
-          <Route path="/projects/:id" element={<ProjectDetails />} />
           <Route path="/gallery" element={<GalleryPage />} />
         </Routes>
       </div>
